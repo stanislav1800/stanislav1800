@@ -1,181 +1,102 @@
-# 👋 Привет, я Стас (Stanislav Klimchenko)
+<h1 align="center">Привет, я Стас 👋</h1>
 
-💻 Backend-разработчик (Python / FastAPI)
+<p align="center">
+  <b>Python Backend Developer</b><br>
+  пишу ботов, API и всё что автоматизирует рутину
+</p>
 
-🚀 Специализируюсь на API, Telegram-ботах и ETL-процессах
-
----
-
-## 🚀 Обо мне
-
-* Разрабатываю backend-приложения на FastAPI (архитектура, БД, API)
-* Создаю Telegram-ботов для автоматизации бизнес-процессов
-* Проектирую и оптимизирую ETL-пайплайны
-* Работаю с асинхронным стеком (asyncio, aiohttp)
-* Оптимизирую SQL-запросы и обработку больших данных
-
-💡 Основной фокус — **автоматизация и производительность**
-
-Постоянно совершенствую свои навыки, исследую новые технологии и внедряю их для повышения эффективности проектов.
-
+<p align="center">
+  <!-- <a href="mailto:klimchenko_stas@mail.ru">
+    <img src="https://img.shields.io/badge/Email-klimchenko__stas@mail.ru-blue?logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://t.me/stanislav1800">
+    <img src="https://img.shields.io/badge/Telegram-@stanislav1800-blue?logo=telegram&logoColor=white" />
+  </a> -->
+  <a href="https://github.com/stanislav1800">
+    <img src="https://komarev.com/ghpvc/?username=stanislav1800&color=blue&style=flat" />
+  </a>
+</p>
 
 ---
 
-## 🛠️ Технологии
+## 👨‍💻 Обо мне
 
-![Python](https://img.shields.io/badge/-Python-000?\&logo=Python)
-![FastAPI](https://img.shields.io/badge/-FastAPI-000?\&logo=fastapi)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?\&logo=postgresql)
-![Redis](https://img.shields.io/badge/-Redis-000?\&logo=redis)
-![Docker](https://img.shields.io/badge/-Docker-000?\&logo=docker)
-![Nginx](https://img.shields.io/badge/-Nginx-000?\&logo=nginx)
-![Linux](https://img.shields.io/badge/-Linux-000?\&logo=linux)
-![Celery](https://img.shields.io/badge/-Celery-000?\&logo=celery)
-![Git](https://img.shields.io/badge/-Git-000?\&logo=git)
+2+ года в Python — в продакшне и в своих проектах параллельно. Строю API, ботов, шаблоны: вещи которые можно взять и сразу использовать.
+
+Нравится когда проект решает реальную задачу: бот, который убирает рутину, API который выдает результат быстро и стабильно, шаблон который можно цеплять и не писать одно и то же снова.
+<!--
+---
+
+## 🔨 Сейчас
+
+- 🏗 **Строю:** название проекта
+- 📖 **Изучаю:** тема/технология
+- 🎯 **Цель:** что хочешь достичь
+-->
+---
+
+## 🛠 Стек
+
+**Backend**
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?logo=celery&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+
+**Базы данных и кэш**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+
+**Telegram**
+
+![Aiogram](https://img.shields.io/badge/Aiogram_3-2CA5E0?logo=telegram&logoColor=white)
+![Aiogram Dialog](https://img.shields.io/badge/Aiogram--Dialog-2CA5E0?logo=telegram&logoColor=white)
+
+**Инфраструктура и инструменты**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest&logoColor=white)
+
+**Парсинг**
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-3776AB?logo=python&logoColor=white)
 
 ---
 
-## 📌 Мои проекты
+## 🚀 Проекты
 
-### 🔹 [SharedFile](https://github.com/stanislav1800/SharedFile)
+### 🤖 Telegram-боты
 
-Backend-сервис для загрузки и обмена файлами + Telegram-бот
+| Проект | Описание | Стек |
+|---|---|---|
+| [aiogram-base-template](https://github.com/stanislav1800/aiogram-base-template) | Production-ready шаблон бота: авторегистрация, роли, middleware, Telegram-админка. Основа для быстрого старта любого бота | Aiogram 3, Aiogram-Dialog, PostgreSQL, Redis |
+| [ReadTrack](https://github.com/stanislav1800/ReadTrack) | Трекер чтения с AI-поиском книг по описанию, автору или сюжету через OpenAI | Aiogram 3, Aiogram-Dialog, OpenAI API, PostgreSQL |
+| [SharedFile](https://github.com/stanislav1800/SharedFile) | Сервис обмена файлами: REST API + Telegram-бот как UI. Яндекс Диск и локальное хранилище | FastAPI, Aiogram 3, Aiogram-Dialog, PostgreSQL |
 
-**Стек:** FastAPI, PostgreSQL, Aiogram
+### 🔧 Backend-сервисы
 
-**Что реализовано:**
-
-* API для загрузки, хранения и получения файлов
-* Telegram-бот для взаимодействия с сервисом
-* Интеграция бота с backend API
-* Логика управления файлами и доступом
-
-**Что показывает:**
-👉 Интеграция backend + Telegram, работа с файлами и API
-
----
-
-### 🔹 [AdBoard (Django)](https://github.com/stanislav1800/AdBoard)
-
-Платформа объявлений на Django
-
-**Стек:** Django, PostgreSQL
-
-**Что реализовано:**
-
-* CRUD для объявлений
-* Работа с пользователями
-* Базовая бизнес-логика платформы
-
-**Что показывает:**
-👉 Опыт разработки веб-приложений на Django
+| Проект | Описание | Стек |
+|---|---|---|
+| [AdBoard FastAPI](https://github.com/stanislav1800/AdBoard-FastAPI) | Платформа объявлений: REST API, WebSocket-чаты, JWT, рейтинг продавцов, Docker-деплой | FastAPI, SQLAlchemy (async), PostgreSQL, Redis, WebSocket |
+| [auth-service-fastapi](https://github.com/stanislav1800/auth-service-fastapi) | Шаблон FastAPI-сервиса с JWT, feature-based архитектурой и тремя уровнями тестов | FastAPI, PostgreSQL, Redis, Pytest, uv |
+| [AdBoard Django](https://github.com/stanislav1800/AdBoard) | Первая версия платформы объявлений на Django — с этого проекта начал изучение Django ORM и MVT | Django, PostgreSQL |
 
 ---
 
-### 🔹 [AdBoard (FastAPI)](https://github.com/stanislav1800/AdBoard-FastAPI)
+## GitHub Stats
 
-Переписанный backend платформы объявлений на FastAPI
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=stanislav1800&theme=tokyo-night&hide_border=true" />
+</p>
 
-**Стек:** FastAPI, SQLAlchemy, PostgreSQL
-
-**Что реализовано:**
-
-* REST API для объявлений
-* Перенос логики с Django на FastAPI
-* Оптимизация структуры backend
-
-**Что показывает:**
-👉 Умение рефакторить и переводить проекты на асинхронный стек
-
----
-
-### 🔹 [Auth Service (FastAPI)](https://github.com/stanislav1800/auth-service-fastapi)
-
-Сервис аутентификации с использованием JWT
-
-**Стек:** FastAPI, PostgreSQL, JWT
-
-**Что реализовано:**
-
-* Регистрация и логин пользователей
-* JWT access токены
-* Работа с пользователями и БД
-* Базовая система авторизации
-
-**Что показывает:**
-👉 Понимание механизмов аутентификации и безопасности
-
----
-
-### 🔹 [ReadTrack](https://github.com/stanislav1800/ReadTrack)
-
-Telegram-бот для отслеживания прочитанных книг
-
-**Стек:** Aiogram, aiogram-dialog
-
-**Что реализовано:**
-
-* Учёт прочитанных книг
-* Диалоговый интерфейс через aiogram-dialog
-* Работа с пользовательскими данными
-
-**Что показывает:**
-👉 Опыт разработки Telegram-ботов с диалоговой логикой
-
----
-
-### 🔹 [Aiogram Template](https://github.com/stanislav1800/aiogram-base-template)
-
-Шаблон Telegram-бота с системой управления пользователями
-
-**Стек:** Aiogram
-
-**Что реализовано:**
-
-* Отслеживание входа/выхода пользователей
-* Система верификации пользователей
-* Ограничение доступа к боту
-* Базовая архитектура для масштабирования
-
-**Что показывает:**
-👉 Понимание архитектуры Telegram-ботов и работы с пользователями
-
----
-
-## 🧠 Что я умею
-
-* Проектировать архитектуру backend-приложений
-* Разрабатывать REST API
-* Работать с асинхронным кодом
-* Интегрировать внешние API
-* Оптимизировать производительность
-* Писать парсеры и ETL
-
----
-
-## 📊 Активность
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=stanislav1800\&theme=tokyo-night)
-
----
-
-## 📫 Контакты
-
-📧 Email: [klimchenko_stas@mail.ru](mailto:klimchenko_stas@mail.ru)
-
-💬 Telegram: https://t.me/stanislav1800
-
----
-
-## ⚡ Сейчас
-
-🔹 Развиваюсь как backend-разработчик
-🔹 Углубляюсь в архитектуру и высоконагруженные системы
-🔹 Изучаю лучшие практики проектирования сервисов
-
----
-
-![Profile views](https://komarev.com/ghpvc/?username=stanislav1800\&color=blue)
 
 
 
